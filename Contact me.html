@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+    <title>CONTACT ME</title>
+    <style>
+        a:link{
+            color: rgb(42, 71, 165);
+        }
+
+        a:hover{
+            background-color: blueviolet;
+        }
+        a:visited{
+            color:blue;
+        }
+        a{
+            border: 3px solid black;
+            text-decoration: none;
+            margin-left: 100px;
+            border-radius: 35px;
+            font-size: 30px;
+        }
+        label{
+            font-size: 15px;
+            background-color: burlywood;
+        }
+    
+    </style>
+</head>
+<body style="width: 50%; background-image: url(contactmeimage.jpg);">
+    <br><br><br><br><br>
+    <center>
+        <form target="_blank">
+            <fieldset style="font-size: 30px;" >
+                <legend>CONTACT ME</legend>
+                <br>
+                <br>
+            
+                <label for="uname" style="font-size: 25px;" >User Name</label>
+
+                <input type="text" style="font-size: 25px;" required id="uname" pattern="[a-zA-Z]{3,12}">
+           
+                <br>
+                <br>
+               
+                
+                <label for="email" style="font-size: 25px;">Email_id</label>
+                <input type="email" style="font-size: 25px;" required id="email" pattern="[a-z0-9,_X+-]+@[a-z0-9,-]+\,[a-z]{2,4}$">
+                <br>
+                <br>
+                <label for="pnum" style="font-size: 25px;">Phone_No</label>
+                <input type="text" style="font-size: 25px;" required id="pnum" pattern="[6-9]{1}[0-9]{9}">
+                <br>
+                <br>
+                <label for="message" style="font-size: 25px;">Message</label>
+                <input type="text" style="font-size: 25px;" required id="pnum" pattern="[a-zA-Z]{3,20}" style="height: 35px;">
+                <br>
+                <br>
+                
+                <center>
+                    <a href="P1.html" style="margin-left: 20px; border-radius: 30px;">Submit</a>
+                </center>
+
+            </fieldset>
+            
+            
+        </form>
+    </center>
+
+</body>
+</html>
